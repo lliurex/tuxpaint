@@ -1,3 +1,9 @@
+tuxpaint (1:0.9.22-12+lliurex1) bionic; urgency=medium
+
+  * Added metainfo
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 16 Oct 2018 10:54:20 +0200
+
 tuxpaint (1:0.9.22-12) unstable; urgency=medium
 
   * Set date in makefile to package date instead of build time
