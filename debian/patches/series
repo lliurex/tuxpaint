@@ -3,3 +3,4 @@ add-fdo-keywords
 fix-manpage-spelling
 fix-parallel-builds
 reproducible-build-timestamp
+0006-Added-llx-resources-folder.patch

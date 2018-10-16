@@ -1,10 +1,18 @@
-Description: use changelog commit time for build time
+From: Jonathan Carter <jcc@debian.org>
+Date: Tue, 16 Oct 2018 10:49:02 +0200
+Subject: use changelog commit time for build time
+
 Use the package commit time as a release time stamp
 instead of the build time in order to make the build
 reproducible.
+---
+ Makefile | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
 
---- tuxpaint-0.9.22.orig/Makefile
-+++ tuxpaint-0.9.22/Makefile
+diff --git a/Makefile b/Makefile
+index afaea32..4de5533 100644
+--- a/Makefile
++++ b/Makefile
 @@ -10,7 +10,13 @@
  # The version number, for release:
  

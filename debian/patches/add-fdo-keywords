@@ -1,8 +1,17 @@
-Description: add fdo keywords
- Add play, paind, draw and art keywords to .desktop file
+From: Jonathan Carter <jcc@debian.org>
+Date: Tue, 16 Oct 2018 10:49:01 +0200
+Subject: add fdo keywords
 
---- tuxpaint-0.9.22.orig/src/tuxpaint.desktop
-+++ tuxpaint-0.9.22/src/tuxpaint.desktop
+Add play, paind, draw and art keywords to .desktop file
+---
+ src/tuxpaint.desktop    | 1 +
+ src/tuxpaint.desktop.in | 1 +
+ 2 files changed, 2 insertions(+)
+
+diff --git a/src/tuxpaint.desktop b/src/tuxpaint.desktop
+index 883c9c2..89192e2 100644
+--- a/src/tuxpaint.desktop
++++ b/src/tuxpaint.desktop
 @@ -113,6 +113,7 @@ Type=Application
  Exec=tuxpaint
  Icon=tuxpaint
@@ -11,8 +20,10 @@ Description: add fdo keywords
  Categories=Education;Art;
  GenericName=Drawing program
  GenericName[ach]=Purugram me goc
---- tuxpaint-0.9.22.orig/src/tuxpaint.desktop.in
-+++ tuxpaint-0.9.22/src/tuxpaint.desktop.in
+diff --git a/src/tuxpaint.desktop.in b/src/tuxpaint.desktop.in
+index ad5ffd8..f3ad826 100644
+--- a/src/tuxpaint.desktop.in
++++ b/src/tuxpaint.desktop.in
 @@ -5,5 +5,6 @@ Exec=tuxpaint
  Icon=tuxpaint
  Terminal=false
