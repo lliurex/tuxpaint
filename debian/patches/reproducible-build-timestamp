@@ -1,0 +1,22 @@
+Description: use changelog commit time for build time
+Use the package commit time as a release time stamp
+instead of the build time in order to make the build
+reproducible.
+
+--- tuxpaint-0.9.22.orig/Makefile
++++ tuxpaint-0.9.22/Makefile
+@@ -10,7 +10,13 @@
+ # The version number, for release:
+ 
+ VER_VERSION:=0.9.22
+-VER_DATE:=$(shell date +"%Y-%m-%d")
++# Original upstream date generation:
++#VER_DATE:=$(shell date +"%Y-%m-%d")
++# In Debian, we use the package commit date
++# so that the package can be reproducible
++PKG_DATE:=%(shell grep "\-\-" debian/changelog | head -n 1 | cut -d ">" -f 2 | cut -b 3-)
++VER_DATE:=%(shell date +"%Y-%m-%d" -d $(PKG_DATE))
++
+ MAGIC_API_VERSION:=0x00000003
+ 
+ # Need to know the OS

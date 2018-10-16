@@ -1,0 +1,47 @@
+Description: fix manpage errors
+ Remove .l macro which doesn't work (and doesn't seem to do anything).
+
+--- tuxpaint-0.9.22.orig/src/manpage/tuxpaint-pl.1
++++ tuxpaint-0.9.22/src/manpage/tuxpaint-pl.1
+@@ -85,7 +85,6 @@ Wy¶wietl listê wszystkich opcji mo¿liwyc
+ Poka¿ licencjê (GNU GPL) zgodnie z któr± opublikowano \fITux Paint\fPa.
+ 
+ .SH OPCJE - INTERFEJS
+-.l
+ \fItuxpaint\fP rozpoznaje nastêpuj±ce opcje, zmieniaj±ce cechy interfejsu.
+ Opcji tych mo¿na u¿ywaæ wraz z, zamiast lub aby zmieniæ opcje podane w plikach
+ konfiguracyjnych. (Zobacz poni¿ej.)
+@@ -190,7 +189,6 @@ albo \fI\-\-saveovernew\fP (wtedy zawsze
+ Domy¶lnie program prosi o potwierdzenie przy zapisie (\fI\-\-saveoverask\fP).
+ 
+ .SH OPCJE - JÊZYK
+-.l
+ Ró¿ne czê¶ci \fITux Paint\fPa zosta³y przet³umaczone na liczne jêzyki.
+ \fITux Paint\fP bêdzie stara³ siê jak najbardziej respektowaæ Twoje ustawienie 
+ \fIlocale\fP (tzn. zmienn± ¶rodowiskow± \fILANG\fP), je¶li to tylko mo¿liwe.
+@@ -309,7 +307,6 @@ Z t± opcj±, \fITux Paint\fP nie bêdzie p
+ ogólnosystemowego pliku konfiguracyjnego (zwykle jest to \fI/etc/tuxpaint/tuxpaint.conf\fP).
+ 
+ .SH ¦RODOWISKO
+-.l
+ Chocia¿ \fITux Paint\fP mo¿e po¶rednio odwo³ywaæ siê do wielu zmiennych systemowych
+ (np. poprzez \fISDL(3)\fP), bezpo¶rednio wykorzystuje tylko nastêpuj±ce zmienne:
+ .PP
+--- tuxpaint-0.9.22.orig/src/manpage/tuxpaint.1
++++ tuxpaint-0.9.22/src/manpage/tuxpaint.1
+@@ -247,7 +247,6 @@ Display a list of all commandline option
+ Show the license (GNU GPL) under which Tux Paint is released.
+ 
+ .SH OPTIONS - INTERFACE
+-.l
+ \fItuxpaint\fP accepts the following options to alter the interface.
+ They can be used along with, instead of, or to override options set in
+ configuration files. (See below.)
+@@ -496,7 +495,6 @@ containing one color description per lin
+ "\fI#000 Black\fP" and "\fI255 192 64 Orange\fP".)
+ 
+ .SH OPTIONS - LANGUAGE
+-.l
+ Various parts of \fITux Paint\fP have been translated into numerous languages.
+ \fITux Paint\fP will try its best to honor your \fIlocale\fP setting
+ (i.e., the \fILANG\fP environment variable), if possible.

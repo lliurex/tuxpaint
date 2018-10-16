@@ -1,0 +1,143 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: tuxpaint
+Source: http://downloads.sourceforge.net/tuxpaint/
+Comment: This package was debianized by Ben Armstrong
+ <synrg@sanctuary.nslug.ns.ca> on Tue, 18 Jun 2002 16:20:10 -0300.
+
+Files: *
+Copyright: 2002-2007 Bill Kendrick <bill@newbreedsoftware.com>
+License: GPL-2+
+
+Files: fonts/locale/el.ttf
+Copyright: 2000-2001 Herman Miller (hmiller) at io.com
+License: GPL-2+
+
+Files: fonts/locale/gu.ttf
+Copyright: 2003, Automatic Control Equipments, Pune, INDIA.
+License: GPL-2+
+
+Files: fonts/locale/ka.ttf
+Copyright: 2005 Gia Shervashidze (giasher@telenet.ge)
+License: GPL-2+
+
+Files: fonts/locale/ta.ttf
+Copyright: Thukkaram Gopalrao, USA ( http://www.thinnai.com/ )
+           T. Vaseeharan <t_vasee@yahoo.com>.
+License: GPL-2+
+
+Files: fonts/locale/te.ttf
+Copyright: 2000 and 2003 K.Desikachary
+License: GPL-2+
+
+Files: fonts/locale/zh_tw.ttf
+Copyright: Hann-Tzong Wang <htwang@math.cycu.edu.tw>
+License: GPL-2+
+
+Files: fonts/locale/ar.ttf
+Copyright: 2004, Arabeyes Project
+License: GPL-2
+
+Files: fonts/locale/ he.ttf
+Copyright: 2002-2004 by Maxim
+           Iorsh (iorsh@math.technion.ac.il).
+License: GPL-2
+
+Files: fonts/locale/bo.ttf
+Copyright: 2001-2005 Kristoffer Lindqvist
+License: LGPL-2.1
+
+Files: fonts/locale/hi.ttf
+Copyright: Prof. R. K. Joshi <rkjoshi@ncst.ernet.in>
+           Vinay Sayanekar
+Comment: Developed and released under public domain by the
+         National Centre for Software Technology
+         (now called The Centre for Development of Advanced Computing),
+         Mumbai, India.
+         http://www.ncst.ernet.in/
+License: public-domain
+
+Files: fonts/locale/th.ttf
+Copyright: None, public domain
+License: public-domain
+
+Files: fonts/locale/ja.ttf
+Copyright: 1990-2003 Wada Laboratory, the University of Tokyo
+           2003-2004 Electronic Font Open Laboratory (/efont/).
+License: custom
+ The license of binary data is same as that of source code.
+ Even though, distribution under the condition, for example embedding
+ them in some documents, that it is not intended to reuse them as fonts,
+ is not considerd as "Redistribution" descrived in following document,
+ and is allowed without any restriction.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright notice,
+    this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+ 3. Neither the name of the Wada Laboratory, the University of Tokyo nor
+    the names of its contributors may be used to endorse or promote products
+    derived from this software without specific prior written permission.
+
+License: public-domain
+ No license required for any purpose; the work is not subject to copyright
+ in any jurisdiction.
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-2+
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU General Public
+ License along with this package; if not, write to the Free
+ Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the full text of the GNU General Public
+ License version 2 can be found in the file
+ `/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-2.1
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in /usr/share/common-licenses/LGPL-2.1.
+

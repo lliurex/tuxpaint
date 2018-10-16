@@ -1,0 +1,36 @@
+Description: fix spelling mistake in man pages
+ s/SYNOPSYS/SYNOPSIS/g
+
+--- tuxpaint-0.9.22.orig/src/manpage/tp-magic-config.1
++++ tuxpaint-0.9.22/src/manpage/tp-magic-config.1
+@@ -3,7 +3,7 @@
+ .SH NAME
+ tp-magic-config -- Helps creating 'Magic' tool plugins for Tux Paint(1)
+ 
+-.SH SYNOPSYS
++.SH SYNOPSIS
+ .TP 16
+ .B tp-magic-config [\-\-apiversion | \-\-version | \-\-cflags | \-\-pluginprefix | \-\-plugindocprefix | \-\-dataprefix | \-\-localpluginprefix | \-\-localdataprefix]
+ 
+--- tuxpaint-0.9.22.orig/src/manpage/tuxpaint-import.1
++++ tuxpaint-0.9.22/src/manpage/tuxpaint-import.1
+@@ -3,7 +3,7 @@
+ .SH NAME
+ tuxpaint-import -- Import image files into Tux Paint(1)
+ 
+-.SH SYNOPSYS
++.SH SYNOPSIS
+ .TP 16
+ .B tuxpaint-import [\-\-help]
+ .TP 16
+--- tuxpaint-0.9.22.orig/src/manpage/tuxpaint.1
++++ tuxpaint-0.9.22/src/manpage/tuxpaint.1
+@@ -3,7 +3,7 @@
+ .SH NAME
+ tuxpaint -- "Tux Paint", a drawing program for young children.
+ 
+-.SH SYNOPSYS
++.SH SYNOPSIS
+ .B tuxpaint
+ [\-\-help \-\-version \-\-verbose\-version \-\-usage \-\-copying]
+ 

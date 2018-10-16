@@ -1,0 +1,5 @@
+fix-manpage-errors
+add-fdo-keywords
+fix-manpage-spelling
+fix-parallel-builds
+reproducible-build-timestamp
