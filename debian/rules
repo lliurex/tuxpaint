@@ -141,6 +141,7 @@ binary-indep: build install
 	dh_fixperms -i
 	# remove unnecessary executable permission
 	chmod 644 $(CURDIR)/debian/tuxpaint-data/usr/share/tuxpaint/starters/skyline-sf-dusk-back.jpeg
+	dh_llxsrcinstall
 	dh_installdeb -i
 	dh_gencontrol -i
 	dh_md5sums -i
@@ -160,6 +161,7 @@ binary-arch: build install
 	dh_strip -a
 	dh_compress -a
 	dh_fixperms -a
+	dh_llxsrcinstall
 	dh_installdeb -a
 	dh_shlibdeps -a
 	dh_gencontrol -a
